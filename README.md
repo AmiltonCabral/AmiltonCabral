@@ -22,6 +22,8 @@ Java, Python
 
 <a href="https://github.com/AmiltonCristian">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&theme=buefy&show_icons=true" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact" />
 </a>
 
 
