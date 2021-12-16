@@ -21,9 +21,9 @@ Java, Python
 <br>
 
 <a href="https://github.com/AmiltonCristian">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&theme=buefy&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&show_icons=true&theme=radical&hide_border=true" />
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact&theme=radical&hide_border=true" />
 </a>
 
 
