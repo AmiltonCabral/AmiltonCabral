@@ -22,10 +22,8 @@ Java, Python
 
 ## Stats
 <div>
-  <a href="https://github.com/AmiltonCristian">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&show_icons=true&theme=radical&hide_border=true" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact&theme=radical&hide_border=true" />
-  </a>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&show_icons=true&theme=radical&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact&theme=radical&hide_border=true" />
 </div>
 
 ![Snake animation](https://github.com/AmiltonCristian/AmiltonCristian/blob/output/github-contribution-grid-snake.svg)
