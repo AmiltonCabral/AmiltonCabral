@@ -1,17 +1,15 @@
 <!---
 comments
-
-  technologies:
-  <img alt="VSCode" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
-  <img alt="Ubuntu" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg">
 --->
 
-
 # print("Hello World!")
-My name is **Amilton Cristian**, I'm 20 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in :brazil:.
-<img align=right height=120 src="https://media.tumblr.com/tumblr_lo1h2bCTeV1qhrjqn.gif">
+My name is **Amilton Cristian**, I'm 20 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
+
+<img alt="cat" align=right height=120 src="https://media.tumblr.com/tumblr_lo1h2bCTeV1qhrjqn.gif">
+
 - 🌱 I’m currently learning:
-Java, Python
+Machine Learning with Tensorflor
+
 <br>
 
 
@@ -19,6 +17,7 @@ Java, Python
 <div>
   <img alt="Python" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img alt="Java" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+  <img alt="TensorFlow" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg">
 </div>
 
 
@@ -30,9 +29,10 @@ Java, Python
   </a>
 </div>
 
+<!---
 ##
 ![Snake animation](https://github.com/AmiltonCristian/AmiltonCristian/blob/output/github-contribution-grid-snake.svg)
-
+--->
 
 ## 📫 How to reach me
 [![](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/amilton-cabral/)
