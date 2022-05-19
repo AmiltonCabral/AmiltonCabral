@@ -1,11 +1,11 @@
 <!---
 comments
 <img alt="cat" align=right height=120 src="https://media.tumblr.com/tumblr_lo1h2bCTeV1qhrjqn.gif">
-![Snake animation](https://github.com/AmiltonCristian/AmiltonCristian/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/AmiltonCabral/AmiltonCabral/blob/output/github-contribution-grid-snake.svg)
 --->
 
 # print("Hello World!")
-My name is **Amilton Cristian**, I'm 20 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
+My name is **Amilton Cabral**, I'm 20 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
 
 
 
@@ -25,9 +25,9 @@ C++
 
 ## Stats
 <div>
-  <a href="https://github.com/AmiltonCristian">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCristian&show_icons=true&theme=radical&hide_border=true"/>
-    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCristian&layout=compact&theme=radical&hide_border=true"/>
+  <a href="https://github.com/AmiltonCabral">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCabral&show_icons=true&theme=radical&hide_border=true"/>
+    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCabral&layout=compact&theme=radical&hide_border=true"/>
   </a>
 </div>
 
