@@ -2,6 +2,8 @@
 comments
 <img alt="cat" align=right height=120 src="https://media.tumblr.com/tumblr_lo1h2bCTeV1qhrjqn.gif">
 ![Snake animation](https://github.com/AmiltonCabral/AmiltonCabral/blob/output/github-contribution-grid-snake.svg)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCabral&show_icons=true&theme=radical&hide_border=true"/>
+<img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?
 --->
 
 # print("Hello World!")
@@ -23,11 +25,11 @@ C++
 </div>
 
 
-## Stats
+## GitHub Readme Stats
 <div>
   <a href="https://github.com/AmiltonCabral">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCabral&show_icons=true&theme=radical&hide_border=true"/>
-    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCabral&layout=compact&theme=radical&hide_border=true"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCabral&show_icons=true&bg_color=161320&text_color=D9E0EE&icon_color=DDB6F2&title_color=96CDFB"/>
+    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCabral&layout=compact&bg_color=161320&text_color=D9E0EE&icon_color=DDB6F2&title_color=96CDFB"/>
   </a>
 </div>
 
