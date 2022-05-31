@@ -49,7 +49,8 @@ set confirm          " Shows a popup save option after quit without save
 filetype on          " Detect and set the filetype option and trigger the FileType Event
 filetype plugin on   " Load the plugin file for the file type, if any
 filetype indent on   " Load the indent file for the file type, if any
-set listchars=eol:↴,tab:>-,trail:~,extends:>,precedes:<
+"set listchars=eol:↴,tab:>-,trail:~,extends:>,precedes:<
+set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 
 
@@ -62,22 +63,22 @@ EOF
 let g:catppuccin_flavour = "frappe" " dusk, latte, frappe, macchiato, mocha
 colorscheme catppuccin
 
-"if exists('+termguicolors')
-"  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-"  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-"  set termguicolors
-"endif
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
-"let g:sonokai_enable_italic = 1
-"let g:sonokai_disable_italic_comment = 0
-"let g:sonokai_diagnostic_line_highlight = 1 " entire line highlight for lint
-"let g:sonokai_current_word = 'bold'
-"colorscheme sonokai
+let g:sonokai_enable_italic = 1
+let g:sonokai_disable_italic_comment = 0
+let g:sonokai_diagnostic_line_highlight = 1 " entire line highlight for lint
+let g:sonokai_current_word = 'bold'
+colorscheme sonokai
 
-"if (has("nvim")) "Transparent background. Only for nvim
-"    highlight Normal guibg=NONE ctermbg=NONE
-"    highlight EndOfBuffer guibg=NONE ctermbg=NONE
-"endif
+if (has("nvim")) "Transparent background. Only for nvim
+    highlight Normal guibg=NONE ctermbg=NONE
+    highlight EndOfBuffer guibg=NONE ctermbg=NONE
+endif
 
 
 
