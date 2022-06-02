@@ -23,9 +23,9 @@ call plug#end()
 :vmap <C-C> "+y      " Copy Ctrl-C, paste Ctrl-V
 syntax on            " Enable syntax highlight
 set nu               " Enable line numbers
-set tabstop=4        " Show existing tab with 4 spaces width
-set softtabstop=4    " Show existing tab with 4 spaces width
-set shiftwidth=4     " When indenting with '>', use 4 spaces width
+set tabstop=2        " Show existing tab with 4 spaces width
+set softtabstop=2    " Show existing tab with 4 spaces width
+set shiftwidth=2     " When indenting with '>', use 4 spaces width
 set expandtab        " On pressing tab, insert 4 spaces
 set smarttab         " insert tabs on the start of a line according to shiftwidth
 set smartindent      " Automatically inserts one extra level of indentation in some cases
@@ -156,7 +156,7 @@ set shortmess+=c
 " diagnostics appear/become resolved.
 if has("nvim-0.5.0") || has("patch-8.1.1564")
   " Recently vim can merge signcolumn and number column into one
-  set signcolumn=number
+  " set signcolumn=number
 else
   set signcolumn=yes
 endif
