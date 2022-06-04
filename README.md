@@ -37,4 +37,4 @@ C++
 ## 📫 How to reach me
 [![](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/amilton-cabral/)
 [![](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:amilton.cabral@ccc.ufcg.edu.br)
-[![](https://img.shields.io/github/followers/AmiltonCristian?label=follow&style=social)](https://github.com/AmiltonCristian)
+[![](https://img.shields.io/github/followers/AmiltonCabral?label=follow&style=social)](https://github.com/AmiltonCabral)
