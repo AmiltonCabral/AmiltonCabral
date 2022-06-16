@@ -7,9 +7,6 @@ Plug 'kyazdani42/nvim-web-devicons' "can be unistaled
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
-Plug 'preservim/nerdtree'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'honza/vim-snippets'
@@ -23,9 +20,9 @@ call plug#end()
 :vmap <C-C> "+y      " Copy Ctrl-C, paste Ctrl-V
 syntax on            " Enable syntax highlight
 set nu               " Enable line numbers
-set tabstop=2        " Show existing tab with 4 spaces width
-set softtabstop=2    " Show existing tab with 4 spaces width
-set shiftwidth=2     " When indenting with '>', use 4 spaces width
+set tabstop=4        " Show existing tab with 4 spaces width
+set softtabstop=4    " Show existing tab with 4 spaces width
+set shiftwidth=4     " When indenting with '>', use 4 spaces width
 set expandtab        " On pressing tab, insert 4 spaces
 set smarttab         " insert tabs on the start of a line according to shiftwidth
 set smartindent      " Automatically inserts one extra level of indentation in some cases
@@ -53,6 +50,9 @@ filetype indent on   " Load the indent file for the file type, if any
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 
+" Local Sets """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SystemVerilog ---
+autocmd BufNewFile,BufRead *.sv,*.v,*.vs setlocal syntax=verilog ts=2 sw=2 sts=2
 
 
 " Themes """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -81,7 +81,6 @@ if (has("nvim")) "Transparent background. Only for nvim
 endif
 
 
-
 " autocmd """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 function! HighlightWordUnderCursor()
     if getline(".")[col(".")-1] !~# '[[:punct:][:blank:]]'
@@ -104,15 +103,6 @@ let g:airline_powerline_fonts = 1
 lua << EOF
     require('gitsigns').setup()
 EOF
-
-
-" NerdTree """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <C-a> :NERDTreeToggle<CR>
-    " Shortcuts for split navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
 
 
 " ALE """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
