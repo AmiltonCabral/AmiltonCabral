@@ -39,7 +39,7 @@
 
 # Examples of commands:
 
-"xbindkeys_show" 
+"xbindkeys_show"
   control+shift + q
 
 # set directly keycode (here control + f with my keyboard)
@@ -71,11 +71,11 @@
 
 ############### Backlight ############################
 # Increase light
-"xbacklight -inc 10"
+"xbacklight -inc 5"
    XF86MonBrightnessUp
 
 # Decrease light
-"xbacklight -dec 20"
+"xbacklight -dec 5"
    XF86MonBrightnessDown
 ######################################################
 
