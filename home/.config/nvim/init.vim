@@ -49,6 +49,8 @@ filetype indent on   " Load the indent file for the file type, if any
 "set listchars=eol:↴,tab:>-,trail:~,extends:>,precedes:<
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
+set clipboard=unnamedplus
+
 
 " Local Sets """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SystemVerilog ---
@@ -82,6 +84,7 @@ endif
 
 
 " autocmd """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Highlight word under cursor """"""
 function! HighlightWordUnderCursor()
     if getline(".")[col(".")-1] !~# '[[:punct:][:blank:]]'
         exec 'match' 'Search' '/\V\<'.expand('<cword>').'\>/'
@@ -91,6 +94,19 @@ function! HighlightWordUnderCursor()
 endfunction
 
 autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
+""""""""""""""""""""""""""""""""""""
+" copy/pasting X clipboard """""""""
+function! ClipboardYank()
+  call system('xclip -i -selection clipboard', @@)
+endfunction
+function! ClipboardPaste()
+  let @@ = system('xclip -o -selection clipboard')
+endfunction
+
+vnoremap <silent> y y:call ClipboardYank()<cr>
+vnoremap <silent> d d:call ClipboardYank()<cr>
+nnoremap <silent> p :call ClipboardPaste()<cr>p
+""""""""""""""""""""""""""""""""""""
 
 
 " AirLine """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
