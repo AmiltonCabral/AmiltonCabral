@@ -49,7 +49,6 @@ filetype indent on   " Load the indent file for the file type, if any
 "set listchars=eol:↴,tab:>-,trail:~,extends:>,precedes:<
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
-set clipboard=unnamedplus
 
 
 " Local Sets """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
