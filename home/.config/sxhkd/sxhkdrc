@@ -120,3 +120,33 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#
+# audio
+#
+
+XF86AudioRaiseVolume
+    amixer set Master 5%+
+XF86AudioLowerVolume
+    amixer set Master 5%-
+XF86AudioMute
+    amixer set Master {mute, unmute}
+#XF86AudioMicMute
+#    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+#
+# backlight
+#
+
+XF86MonBrightnessUp
+    xbacklight -inc 5
+
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
+#
+# screenshot
+#
+
+@Print
+    scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-%wx$h_scrot.png
