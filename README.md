@@ -7,21 +7,25 @@ comments
 --->
 
 # print("Hello World!")
-My name is **Amilton Cabral**, I'm 20 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
+My name is **Amilton Cabral**, I'm 21 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
 
-
+- 4/9 at university
 
 - 🌱 I’m currently learning:
-C++
+React, Spring Boot
 
 <br>
 
 
 ## Technologies
 <div>
-  <img alt="Python" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img alt="Java" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-  <img alt="C++" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">  
+  <img alt="Python" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img alt="JS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img alt="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img alt="SpringBoot" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
+  <img alt="HTML5" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img alt="CSS3" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
 
