@@ -33,7 +33,7 @@ React, Spring Boot
 <div>
   <a href="https://github.com/AmiltonCabral">
     <img height="170" src="https://github-readme-stats.vercel.app/api?username=AmiltonCabral&show_icons=true&bg_color=161320&text_color=D9E0EE&icon_color=DDB6F2&title_color=96CDFB"/>
-    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCabral&layout=compact&bg_color=161320&text_color=D9E0EE&icon_color=DDB6F2&title_color=96CDFB&hide=jupyter%20notebook,shell"/>
+    <img height="170" width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmiltonCabral&layout=compact&bg_color=161320&text_color=D9E0EE&icon_color=DDB6F2&title_color=96CDFB&hide=jupyter%20notebook,shell,vim%20script"/>
   </a>
 </div>
 
