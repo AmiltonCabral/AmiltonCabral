@@ -1,1 +1,12 @@
-/usr/share/applications/slack.desktop
+[Desktop Entry]
+Name=Slack
+StartupWMClass=Slack
+Comment=Slack Desktop
+GenericName=Slack Client for Linux
+Exec=bash -c "sleep 15 && /usr/bin/slack -s -u %U"
+Icon=slack
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;InstantMessaging;
+MimeType=x-scheme-handler/slack;
+
