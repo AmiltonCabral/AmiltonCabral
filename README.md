@@ -12,7 +12,7 @@ My name is **Amilton Cabral**, I'm 21 years old and I'm a student of Computer Sc
 - 4/9 at university
 
 - 🌱 I’m currently learning:
-React, Spring Boot
+React, NextJS
 
 <br>
 
