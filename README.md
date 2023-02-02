@@ -1,10 +1,12 @@
 # print("Hello World!")
 My name is **Amilton Cabral**, I'm 21 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
 
-- 4/9 at university
+- 5/9 at university
 
+<!--
 - 🌱 I’m currently learning:
 TypeScript, NextJS
+-->
 
 <br>
 
