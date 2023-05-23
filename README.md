@@ -6,10 +6,6 @@ My name is **Amilton Cabral**, I'm 21 years old and I'm a student of Computer Sc
 <!--
 - 🌱 I’m currently learning:
 TypeScript, NextJS
--->
-
-<br>
-
 ## Technologies
 <div>
   <img alt="HTML5" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -21,6 +17,8 @@ TypeScript, NextJS
   <img alt="Java" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
   <img alt="SpringBoot" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
 </div>
+<br>
+-->
 
 ## 📫 How to reach me
 [![](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/amilton-cabral/)
