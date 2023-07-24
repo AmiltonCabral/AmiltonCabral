@@ -1,4 +1,6 @@
 function sendData(data, endpoint) {
+  console.log('running git func');
+  log('running git func');
   var xhr = new XMLHttpRequest();
   var stringifiedData = JSON.stringify(data);
 
