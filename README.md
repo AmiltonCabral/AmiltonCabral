@@ -1,7 +1,7 @@
 # print("Hello World!")
 My name is **Amilton Cabral**, I'm 21 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷
 
-- 6/9 at university
+- 7/9 at university
 
 <!--
 - 🌱 I’m currently learning:
