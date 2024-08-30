@@ -72,9 +72,12 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    gitfast
+    yarn
+    colorize
+    command-not-found
+    sudo
     zsh-autosuggestions
-    zsh-syntax-highlighting
-    z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,5 +108,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+eval $(thefuck --alias)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
