@@ -112,7 +112,7 @@ eval $(thefuck --alias)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
-# COLORS ######
+# COLORS
 
 ## diff
 alias diff='diff --color=auto'
@@ -129,3 +129,59 @@ alias ip='ip -color=auto'
 alias ls='ls --color=auto'
 export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33'
 
+## grc (Generic Colouriser)
+GRC=`which grc`
+if [ "$TERM" != dumb ] && [ -n "$GRC" ]
+then
+    alias colourify="$GRC -es --colour=auto"
+    alias cat='colourify cat'
+    alias cvs='colourify cvs'
+    alias df='colourify df'
+    alias diff='colourify diff'
+    alias dig='colourify dig'
+    alias gcc='colourify gcc'
+    alias g++='colourify g++'
+    alias ls='colourify ls'
+    alias ifconfig='colourify ifconfig'
+    alias make='colourify make'
+    alias mount='colourify mount'
+    alias mtr='colourify mtr'
+    alias netstat='colourify netstat'
+    alias ping='colourify ping'
+    alias ps='colourify ps'
+    alias tail='colourify tail'
+    alias traceroute='colourify traceroute'
+    alias wdiff='colourify wdiff'
+    alias blkid='colourify blkid'
+    alias du='colourify du'
+    alias dnf='colourify dnf'
+    alias docker='colourify docker'
+    alias docker-machine='colourify docker-machine'
+    alias env='colourify env'
+    alias id='colourify id'
+    alias ip='colourify ip'
+    alias iostat='colourify iostat'
+    alias last='colourify last'
+    alias lsattr='colourify lsattr'
+    alias lsblk='colourify lsblk'
+    alias lspci='colourify lspci'
+    alias lsmod='colourify lsmod'
+    alias lsof='colourify lsof'
+    alias getfacl='colourify getfacl'
+    alias getsebool='colourify getsebool'
+    alias ulimit='colourify ulimit'
+    alias uptime='colourify uptime'
+    alias nmap='colourify nmap'
+    alias fdisk='colourify fdisk'
+    alias findmnt='colourify findmnt'
+    alias free='colourify free'
+    alias semanage='colourify semanage'
+    alias sar='colourify sar'
+    alias ss='colourify ss'
+    alias sysctl='colourify sysctl'
+    alias systemctl='colourify systemctl'
+    alias stat='colourify stat'
+    alias showmount='colourify showmount'
+    alias tune2fs='colourify tune2fs'
+    alias tcpdump='colourify tcpdump'
+fi
