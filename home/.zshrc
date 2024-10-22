@@ -110,3 +110,22 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# COLORS ######
+
+## diff
+alias diff='diff --color=auto'
+
+## grep
+alias grep='grep --color=auto'
+alias egrep='grep -E --color=auto'
+alias fgrep='LC_ALL=C grep -F --color=auto'
+
+## ip
+alias ip='ip -color=auto'
+
+## ls
+alias ls='ls --color=auto'
+export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33'
+
