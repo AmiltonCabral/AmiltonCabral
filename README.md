@@ -1,5 +1,5 @@
 # cout << "Hello World!" << endl;
-My name is **Amilton Cabral**, I'm 23 years old and I'm a student of Computer Science at Federal University of Campina Grande (UFCG) in 🇧🇷. Ex VTEX Lab and currently an intern at VTEX
+My name is **Amilton Cabral**, I'm 23 years old with a degree in Computer Science from the Federal University of Campina Grande (UFCG) in 🇧🇷. Currently a level 1 at VTEX
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=amiltoncabral&layout=compact&theme=dracula&hide=jupyter%20notebook,shell,vim%20script)](https://github.com/amiltoncabral)
 
